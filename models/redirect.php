@@ -292,7 +292,7 @@ class Red_Item {
 		}
 	}
 
-	static function save_order( $items, $start ) {
+	function save_order( $items, $start ) {
 		global $wpdb;
 
 		foreach ( $items as $pos => $id ) {
